@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <title> CSS Introduction</title>
+        <style>
+            span{
+                color: orange;
+                font-size: 40px;
+        
+            }
+        </style>
+        <link rel="stylesheet" href="CSS_intro.css"
+    </head>
+
+    <body>
+        <!-- 3 ways to Integrate Css with HTML
+        >Inline
+        > Internal
+        > External
+        Inline - applies  to an instance of an elament(style attributes)
+        Internal - Internal to HTML page( style tag inside head section)
+        External - common styles across multiple pages within website(seperate css file)
+
+        Precedence order
+        Inline >> Internal >> External
+        >>>>>>>>>>>>>>>>>>selectors>>>>>>>>>>>>>>
+        usage - uniquely identify the instance of an element
+         >name
+         >id
+         >class
+         >universal
+         >grouping
+             Selector  Specificity
+              Id >> >> class >>Name 
+              most recomended way of css - External CSS with either Id or class selectior
+
+    -->
+
+    <div style="color: red;"> hi</div>
+    <div style="color: green"> hello</div>
+
+    <span id="two"> surya</span>
+    <span> prakash</span>
+
+    <div > welcome to college....</div>
+
+    <div id="one"> hello </div>
+
+    <div id="four">Hello surya</div>
+    <div id="four">Hello surya</div>
+ <!-- display proerty
+block --
+ >> takes the entire space 
+ >> doesn't allow any other element to sit beside it
+ >> always starts from a new line 
+ >>apply Eternal height and width
+
+ In line --
+ >>  takes only the required width 
+ >>  will allow any other element to sit beside it
+ >>  always starts from the same line
+ >>  External height and width  will not possible
+  >>> INline - block ----
+   >> >>  takes only the required width 
+ >>  will allow any other element to sit beside it
+ >>  always starts from the same line
+ >>  External height and width   possible
+ -->
+ <div> 
+    <div class="item"> </div>
+    <div class="item"> </div>
+    <div class="item"> </div>
+
+ </div>
+
+  <div>
+    <div class="item"> </div>
+    <div class="item"> </div>
+    <div class="item"> </div>
+  </div>
+
+
+
+    </body>
+</html>

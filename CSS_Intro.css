@@ -1,0 +1,37 @@
+div{
+    font-size: 30px;
+    color: yellow;
+
+}
+
+#one {
+    font-size: 60px;
+    color:aliceblue;
+
+}
+#three {
+    font-size: 60px;
+    color:blue;
+
+}
+.four {
+    font-size: 60px;
+    color:blue;
+
+}
+.five {
+    font-size: 60px;
+    color:blue;
+
+}
+* {
+    font-weight: bold;
+}
+.item {
+    display:inline-block;
+    width: 300px;
+    height: 200px;
+    border: solid 1px red;
+    margin-right: 10px;
+    
+}
